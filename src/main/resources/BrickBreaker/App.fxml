@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BrickBreaker.BrickBreakerController">
+   <children>
+      <Button fx:id="startknapp" layoutX="14.0" layoutY="360.0" mnemonicParsing="false" onAction="#handleButtonClick" text="Start Animasjon" />
+      <Circle fx:id="movingBall" fill="DODGERBLUE" layoutX="296.0" layoutY="316.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle fx:id="playerRect" arcHeight="5.0" arcWidth="5.0" fill="#1ee20d" height="14.0" layoutX="228.0" layoutY="353.0" stroke="BLACK" strokeType="INSIDE" width="133.0" />
+      
+      
+      <AnchorPane layoutX="174.0" layoutY="116.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
